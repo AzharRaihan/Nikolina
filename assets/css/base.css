@@ -1,0 +1,115 @@
+/**
+* Template Name: VYCNIS 
+* Author: VYCNIS 
+* Design & Development : VYCNIS 
+* Date : 15-11-2020 
+*/
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Great+Vibes&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Stalemate&display=swap"); */
+/*font-family 1
+font-family: 'Mukta', sans-serif;
+*/
+/* font-family2
+font-family: 'Amatic SC', cursive; 
+*/
+/* font-family3
+font-family: 'Stalemate', cursive;
+ */
+
+/* Base Css */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+  color: #444444;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Mukta", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: "Mukta", sans-serif;
+}
+a {
+  text-decoration: none;
+  border-color: #ff0d92;
+}
+a:hover {
+  text-decoration: none;
+  border-color: #ff0d92;
+}
+.form-control:focus {
+  border-color: #ff0d92;
+  box-shadow: none;
+}
+.form-control {
+  font-size: 14px;
+  border-radius: 0rem;
+  height: 45px;
+}
+
+.page-link:focus {
+  box-shadow: none;
+}
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.btn-info:not(:disabled):not(.disabled).active:focus,
+.btn-info:not(:disabled):not(.disabled):active:focus,
+.show > .btn-info.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.btn-danger:not(:disabled):not(.disabled).active:focus,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.show > .btn-danger.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style-type: none;
+}
+.btn-danger {
+  background-color: #ff0d92;
+}
+.btn-danger:hover {
+  background-color: #f10888;
+}
+
+.btn-submit {
+  width: 100%;
+  text-align: center;
+  background-color: #ff0d92;
+  color: white;
+  border-radius: 0rem;
+  padding: 10px 0px;
+}
+::selection {
+  color: #ffffff;
+  background: #ff0d92;
+}
+

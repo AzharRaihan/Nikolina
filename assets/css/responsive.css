@@ -1,0 +1,636 @@
+/*	Tablet PC: 992px.
+  Gutters: 24px.
+  Outer margins: 28px.
+  Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .logo img {
+    max-height: 30px;
+  }
+  .common-heading h1 {
+    height: 200px;
+    font-size: 90px;
+  }
+  .who .nikolina-fiinska {
+    height: 190px;
+  }
+  .nikolina-fiinska img {
+    height: 80px;
+  }
+  .listen-head h1 {
+    font-size: 90px;
+  }
+  .listen-head h3 {
+    font-size: 55px;
+  }
+  .common-heading h3 {
+    height: 180px;
+    font-size: 60px;
+  }
+  .speaking-heading,
+  .notable-watch-heading,
+  .contact-book-me-heading h1 {
+    height: 170px;
+  }
+  .keynotes-wrap h4 {
+    font-size: 27px;
+  }
+  .keynotes-wrap ul li {
+    font-size: 22px;
+  }
+  .contact .sponsor img {
+    height: 245px;
+  }
+}
+/*	Tablet Layout: 768px.
+  Gutters: 24px.
+  Outer margins: 28px.
+  Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .sidenav a {
+    padding: 5px 0px 5px 15px;
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  .sidenav .closebtn {
+    right: 52px;
+  }
+  .logo img {
+    max-height: 25px;
+    max-width: 200px;
+  }
+  .common-heading h1 {
+    height: 160px;
+    font-size: 75px;
+  }
+  .common-content p {
+    font-size: 17px;
+    padding: 0px 20px;
+    line-height: 31px;
+  }
+  .who .nikolina-fiinska {
+    height: 170px;
+  }
+  .nikolina-fiinska img {
+    height: 60px;
+  }
+  .listen-head h1 {
+    font-size: 75px;
+  }
+  .listen-head h3 {
+    font-size: 40px;
+  }
+  .common-heading h3 {
+    height: 160px;
+    font-size: 45px;
+  }
+  .speaking-heading,
+  .notable-watch-heading,
+  .contact-book-me-heading h1 {
+    height: 150px;
+  }
+  .keynotes-wrap h4 {
+    font-size: 23px;
+  }
+  .keynotes-wrap ul li {
+    font-size: 20px;
+  }
+  .contact .sponsor img {
+    height: 210px;
+  }
+  .brands img {
+    height: 130px;
+  }
+  .footer {
+    padding: 20px 10px;
+  }
+  .course-page .body {
+    padding: 20px 20px 25px 20px;
+  }
+  .course-page .body .title h1 {
+    font-size: 29px;
+  }
+  .course-page .body .title h1 {
+    font-size: 29px;
+  }
+  .course-page .course,
+  .course {
+    padding: 127px 15px 130px 15px;
+    height: 440px;
+  }
+}
+
+/*	Wide Tablet Layout: 576.
+  Gutters: 24px.
+  Outer margins: 22px.
+  Inherits styles from: Default Layout, Tablet Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* End Base Css */
+  .sidenav a {
+    padding: 5px 0px 5px 15px;
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  .sidenav .closebtn {
+    right: 20px;
+    top: -6px;
+  }
+  .navbar {
+    padding: 0px 20px;
+    height: 70px;
+  }
+  .logo img {
+    max-height: 22px;
+    max-width: 180px;
+  }
+  .logo-2 {
+    padding-left: 90px;
+  }
+  .common-heading h1 {
+    height: 150px;
+    font-size: 65px;
+  }
+  .common-content p {
+    font-size: 16px;
+    padding: 0px 15px;
+    line-height: 28px;
+  }
+  .who .nikolina-fiinska {
+    height: 160px;
+  }
+  .nikolina-fiinska img {
+    height: 55px;
+  }
+  .listen {
+    padding: 40px 0px;
+  }
+  .subscribe {
+    padding: 35px 0px;
+  }
+  .listen-head h1 {
+    font-size: 70px;
+    margin-bottom: 15px;
+  }
+  .listen-head h3 {
+    font-size: 35px;
+  }
+  .subscribe a {
+    padding: 15px 15px;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  .contact .secondary a {
+    font-size: 25px;
+  }
+  .common-heading h3 {
+    height: 150px;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .speaking-heading,
+  .notable-watch-heading,
+  .contact-book-me-heading h1 {
+    height: 140px;
+  }
+  .keynotes-wrap h4 {
+    font-size: 21px;
+  }
+  .keynotes-wrap ul li {
+    font-size: 19px;
+  }
+  .contact .sponsor img {
+    height: 200px;
+  }
+  .brands img {
+    height: 120px;
+  }
+  .footer {
+    padding: 20px 10px;
+  }
+  .course-page .body {
+    padding: 20px 20px 25px 20px;
+  }
+  .course-page .body .title h1 {
+    font-size: 27px;
+  }
+  .course-page .course,
+  .course {
+    padding: 127px 15px 130px 15px;
+    height: 440px;
+  }
+  .notable-img-sec {
+    width: 40%;
+  }
+  .notable-video-sec {
+    width: 60%;
+    padding: 0px 20px;
+  }
+  .contact {
+    padding: 40px 0px;
+  }
+  .lest-work-wrap {
+    padding-bottom: 40px;
+  }
+  .help-section {
+    padding: 40px 0px;
+  }
+  .contact-card-wrap {
+    padding-top: 30px;
+  }
+}
+
+/*	Wide Mobile Layout: 431.
+  Gutters: 24px.
+  Outer margins: 22px.
+  Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 450px) and (max-width: 575.98px) {
+  .sidenav a {
+    padding: 5px 0px 5px 15px;
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  .sidenav .closebtn {
+    right: 20px;
+    top: -8px;
+  }
+  .navbar {
+    padding: 0px 20px;
+    height: 60px;
+  }
+  .logo img {
+    max-height: 22px;
+    max-width: 180px;
+  }
+  .logo-2 {
+    padding-left: 90px;
+  }
+  .owl-prev span {
+    font-size: 65px;
+  }
+  .owl-next span {
+    font-size: 65px;
+  }
+  .common-heading h1 {
+    height: 110px;
+    font-size: 45px;
+  }
+  .common-content p {
+    font-size: 15px;
+    padding: 0px 0px;
+    line-height: 25px;
+  }
+  .who .nikolina-fiinska {
+    height: 130px;
+  }
+  .nikolina-fiinska img {
+    height: 40px;
+  }
+  .listen {
+    padding: 40px 0px;
+  }
+  .subscribe {
+    padding: 40px 0px;
+  }
+  .listen-head h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+  .listen-head h3 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .subscribe a {
+    padding: 12px 15px;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  .brands {
+    padding: 30px 0px;
+  }
+  .contact .secondary a {
+    font-size: 22px;
+  }
+  .common-heading h3 {
+    height: 100px;
+    font-size: 25px;
+  }
+  .speaking-heading,
+  .notable-watch-heading,
+  .contact-book-me-heading h1 {
+    height: 110px;
+  }
+  .book-me-speaking,
+  .notable-links-watch {
+    font-size: 45px;
+  }
+  .keynotes-wrap h4 {
+    font-size: 19px;
+  }
+  .keynotes-wrap ul li {
+    font-size: 18px;
+  }
+  .notable-speaking {
+    flex-direction: column;
+  }
+  .contact .sponsor img {
+    height: 190px;
+  }
+  .brands img {
+    height: 110px;
+  }
+  .footer {
+    padding: 20px 10px;
+  }
+  .course-page .body {
+    padding: 20px 20px 25px 20px;
+  }
+  .course-page .body .title h1 {
+    font-size: 25px;
+  }
+  .course-page .course,
+  .course {
+    padding: 127px 15px 130px 15px;
+    height: 420px;
+  }
+  .notable-img-sec {
+    width: 100%;
+  }
+  .notable-video-sec {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .say-hello {
+    background: #e2e2e2;
+    padding: 30px 0px;
+  }
+  .padcast-content {
+    padding: 20px 0px;
+  }
+
+  /*======================== **** ==================*/
+  .mobile-pt-10 {
+    padding-top: 10px;
+  }
+  .mobile-pb-10 {
+    padding-bottom: 10px;
+  }
+  .mobile-pt-20 {
+    padding-top: 20px;
+  }
+  .mobile-pb-20 {
+    padding-bottom: 20px;
+  }
+  .mobile-mt-10 {
+    margin-top: 10px;
+  }
+  .mobile-mb-10 {
+    margin-bottom: 10px;
+  }
+  .mobile-mt-20 {
+    margin-top: 20px;
+  }
+  .mobile-mb-20 {
+    margin-bottom: 20px;
+  }
+  .mobile-py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .mobile-py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mobile-my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .mobile-my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .mobile-pl-20 {
+    padding-left: 20px;
+  }
+  /* End Base Css */
+}
+
+/*	Wide Mobile Layout: 360.
+  Gutters: 24px.
+  Outer margins: 22px.
+  Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 310px) and (max-width: 449.98px) {
+  .header .trigger-icon {
+    font-size: 18px;
+  }
+  .sidenav .closebtn {
+    right: 6px;
+    top: -2px;
+    font-size: 25px;
+  }
+  .sidenav {
+    padding-top: 40px;
+  }
+  .sidenav a {
+    padding: 2px 0px 2px 5px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .navbar {
+    padding: 0px 5px;
+    height: 45px;
+  }
+  .logo img {
+    max-height: 18px;
+    max-width: 70px;
+  }
+  .logo-2 {
+    padding-left: 45px;
+  }
+  .owl-prev span {
+    font-size: 35px;
+  }
+  .owl-next span {
+    font-size: 35px;
+  }
+  .common-heading h1 {
+    height: 75px;
+    font-size: 30px;
+  }
+  .common-content p {
+    font-size: 13px;
+    padding: 0px 0px;
+    line-height: 18px;
+  }
+  .who .nikolina-fiinska {
+    height: 75px;
+  }
+  .nikolina-fiinska img {
+    height: 22px;
+  }
+  .listen {
+    padding: 30px 0px;
+  }
+  .subscribe {
+    padding: 30px 0px;
+  }
+  .listen-head h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .listen-head h3 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  .subscribe a {
+    padding: 12px 15px;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  .brands {
+    padding: 30px 0px;
+  }
+  .contact .secondary a {
+    font-size: 22px;
+  }
+  .common-heading h3 {
+    height: 70px;
+    font-size: 20px;
+  }
+  .speaking-heading,
+  .notable-watch-heading,
+  .contact-book-me-heading h1 {
+    height: 75px;
+  }
+  .book-me-speaking,
+  .notable-links-watch {
+    font-size: 35px;
+  }
+  .keynotes-wrap h4 {
+    font-size: 19px;
+  }
+  .keynotes-wrap ul li {
+    font-size: 15px;
+  }
+  .notable-speaking {
+    flex-direction: column;
+  }
+  .contact .sponsor img {
+    height: 190px;
+  }
+  .brands img {
+    height: 75px;
+  }
+  .contact {
+    padding: 30px 0px;
+  }
+  .footer {
+    padding: 10px 0px;
+  }
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .course-page .body {
+    padding: 20px 20px 25px 20px;
+  }
+  .course-page .body .title h1 {
+    font-size: 25px;
+  }
+  .course-page .course,
+  .course {
+    padding: 127px 15px 130px 15px;
+    height: 420px;
+  }
+  .notable-img-sec {
+    width: 100%;
+  }
+  .notable-video-sec {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .say-hello {
+    background: #e2e2e2;
+    padding: 30px 0px;
+  }
+  .padcast-content {
+    padding: 20px 0px;
+  }
+  .lest-work-wrap {
+    padding-bottom: 0px;
+  }
+  .women-in-digital {
+    padding: 0px;
+  }
+  .help-section {
+    padding: 30px 0px;
+  }
+  #message {
+    height: 140px;
+  }
+  .contact-card-wrap {
+    padding-top: 15px;
+  }
+
+  /* Base Css */
+  .mobile-pt-10 {
+    padding-top: 10px;
+  }
+  .mobile-pb-10 {
+    padding-bottom: 10px;
+  }
+  .mobile-pt-20 {
+    padding-top: 20px;
+  }
+  .mobile-pb-20 {
+    padding-bottom: 20px;
+  }
+  .mobile-mt-10 {
+    margin-top: 10px;
+  }
+  .mobile-mb-10 {
+    margin-bottom: 10px;
+  }
+  .mobile-mt-20 {
+    margin-top: 20px;
+  }
+  .mobile-mb-20 {
+    margin-bottom: 20px;
+  }
+  .mobile-py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .mobile-py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mobile-my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .mobile-my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .mobile-pl-20 {
+    padding-left: 20px;
+  }
+
+  /*======================== **** ==================*/
+}

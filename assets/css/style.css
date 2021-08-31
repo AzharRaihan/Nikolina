@@ -1,0 +1,610 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.header .trigger-icon {
+  font-size: 25px;
+  cursor: pointer;
+  color: #ff0d92;
+}
+.header .trigger-icon a {
+  color: black;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #ff0d92;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  display: block;
+  transition: 0.1s;
+  letter-spacing: 4px;
+}
+.sidenav a:hover {
+  color: rgb(0, 0, 0);
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 5px;
+  right: 40px;
+  font-size: 45px;
+}
+
+.side-menu {
+  width: 260px;
+}
+.navbar {
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  padding: 0px 52px;
+}
+.trigger-icon .get-touch {
+  font-size: 25px;
+  font-weight: 900;
+  padding-right: 88px;
+}
+.logo img {
+  max-height: 35px;
+}
+.logo-2 {
+  padding-left: 150px;
+}
+.logo-2 img {
+  height: 70px;
+}
+.podcast-content {
+  padding: 80px 0px 50px 0px;
+}
+.podcast-content p {
+  padding: 0px 200px;
+  text-align: center;
+}
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+.owl-next {
+  right: 5%;
+}
+.owl-prev {
+  left: 5%;
+}
+.owl-next span {
+  font-size: 85px;
+  font-weight: normal;
+  color: #fa2e9e;
+}
+.owl-prev span {
+  font-size: 85px;
+  font-weight: normal;
+  color: #fa2e9e;
+}
+/*--------------------------------------------------------------
+# Common Heading Adn Content Css
+--------------------------------------------------------------*/
+.common-heading h1 {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 100px;
+  font-weight: 900;
+  color: #ff0d92;
+}
+.common-heading h3 {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 70px;
+  font-weight: 700;
+  color: #ff0d92;
+}
+.speaking-heading,
+.notable-watch-heading,
+.contact-book-me-heading h1 {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-me-speaking,
+.notable-links-watch {
+  font-size: 70px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  color: #ff0d92;
+  font-family: "Amatic SC", cursive;
+}
+
+/* Content Css */
+.common-content p {
+  font-size: 18px;
+  text-align: center;
+  padding: 0px 65px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+# Who I Am
+--------------------------------------------------------------*/
+.who {
+  background: #e1e1e1;
+}
+
+.who .nikolina-fiinska {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nikolina-fiinska img {
+  height: 100px;
+}
+.making-magical img {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+/*--------------------------------------------------------------
+# Listen Section
+--------------------------------------------------------------*/
+.listen {
+  width: 100%;
+  height: auto;
+  background: url("../img/listen.jpg") center center;
+  background-size: cover;
+  color: white;
+  padding: 60px 0px;
+}
+.listen-head h1 {
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.listen-head h3 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.subscribe {
+  padding: 50px 0px;
+}
+.subscribe a {
+  color: white;
+  border: 2px solid white;
+  padding: 20px 30px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.subscribe a:hover {
+  background: rgb(241, 241, 241);
+  color: rgb(0, 0, 0);
+  border: 2px solid white;
+  transition: 1s all ease;
+}
+.about-brand {
+  background: #eaecee;
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+  background: black;
+  color: #ff0d92;
+  padding: 60px 0px;
+}
+.contact .secondary a {
+  color: #ff0d92;
+}
+.contact .secondary {
+  font-style: italic;
+  font-size: 32px;
+  line-height: 1.1em;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  color: #ff0d92;
+}
+.contact .sponsor {
+  margin: auto;
+}
+.contact .sponsor img {
+  height: 260px;
+  margin: auto;
+}
+.help-section ul li a {
+  text-decoration: underline;
+}
+#message {
+  height: 200px;
+}
+.particles-js{
+  position: relative;
+}
+.help-section{
+  position: absolute;
+}
+/*--------------------------------------------------------------
+# Footer Css
+--------------------------------------------------------------*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ff0d92;
+  color: white;
+}
+.social-media i {
+  color: white;
+  padding: 0px 10px;
+}
+.social-media i:hover {
+  color: #b60064;
+}
+.footer .develop-by a {
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# Speaking Page Css
+--------------------------------------------------------------*/
+.keynotes-wrap {
+  background-color: #e1e1e1;
+}
+.keynotes-wrap ul li {
+  font-size: 25px;
+  list-style-type: initial;
+}
+.keynotes-wrap h4 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.keynotes-wrap .keynotes {
+  color: #ff0d92;
+  font-weight: 700;
+}
+.notable-speaking {
+  display: flex;
+  background-color: black;
+}
+.notable-img-sec {
+  width: 50%;
+}
+.notable-video-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 0px 30px;
+}
+.notable-talk-links a {
+  color: #ff0d92;
+}
+
+.speaker-presentation-wrap {
+  display: flex;
+  background-color: black;
+  padding: 60px 0px;
+}
+
+.speaker-presentation-wrap .speaker-presentation-img {
+  text-align: center;
+  width: 60%;
+}
+.speaker-presentation-wrap .speaker-presentation-img img {
+  height: 200px;
+}
+.speaker-presentation-wrap .speaker-presentation-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+/*--------------------------------------------------------------
+# Courses Page
+--------------------------------------------------------------*/
+.course-page {
+  background: #e2e2e2;
+}
+.course-page .course-card {
+  padding-bottom: 85px;
+}
+.course-page .body .title h1 {
+  font-weight: 900;
+  font-size: 44px;
+  padding-bottom: 15px;
+}
+.course-page .course {
+  background: url("../img/games/angry.png") center center;
+  background-size: cover;
+  position: relative;
+  padding: 250px 30px 150px 30px;
+  height: 800px;
+}
+.course-page .course2 {
+  background: url("../img/games/com.png") center center;
+  background-size: cover;
+  position: relative;
+  padding: 250px 30px 150px 30px;
+  height: 800px;
+}
+.course-page .body {
+  background: #ededed;
+  text-align: center;
+  padding: 30px 45px 45px 45px;
+}
+.course-page .body .title-2 h4 {
+  font-size: 53px;
+  font-weight: 300;
+  padding: 15px 0px;
+}
+.course-page .body .article {
+  font-size: 24px;
+}
+
+/*--------------------------------------------------------------
+# Games Page
+--------------------------------------------------------------*/
+.game-page {
+  background: #e3e3e3;
+}
+.game-page .games-body {
+  background: white;
+  text-align: center;
+  padding: 90px 20px 50px 20px;
+  height: 250px;
+  margin-top: -58px;
+}
+.platform-wrap {
+  display: flex;
+  justify-content: center;
+}
+.platform-wrap i {
+  font-size: 30px;
+  padding-left: 8px;
+  color: #a7a2a2;
+}
+.platform-wrap i:hover {
+  color: #8b8b8b;
+}
+.game-page .games-content-head {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 34px;
+  padding-bottom: 15px;
+}
+.game-page .games-icon img {
+  box-shadow: 0 20px 80px -20px rgba(0, 0, 0, 0.38);
+}
+.games-icon img {
+  border-radius: 50%;
+}
+.game-page a {
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Contact Page
+--------------------------------------------------------------*/
+.lest-work-wrap {
+  background-color: #e1e1e1;
+  padding-bottom: 60px;
+}
+.help-section {
+  padding: 60px 0px;
+}
+.help-section h1 {
+  text-transform: uppercase;
+}
+.help-section ul li {
+  padding: 10px 0px;
+  font-size: 20px;
+}
+.help-section ul a {
+  text-decoration: underline;
+  color: #ff0d92;
+  font-weight: 600;
+}
+.women-in-digital {
+  padding: 60px;
+  background-color: #f0f0f0;
+}
+
+.say-hello {
+  background: #e2e2e2;
+  padding: 60px;
+}
+.say-hello a {
+  color: #000000;
+}
+.say-hello a:hover {
+  color: #ff0d92;
+}
+.say-hello .head {
+  font-weight: 900;
+  font-size: 70px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #000000;
+}
+.say-hello .contact-phone .title {
+  padding: 50px 0px 30px 0px;
+  font-weight: 900;
+  font-size: 30px;
+  margin: 0 auto;
+  color: #000000;
+}
+.say-hello .contact-phone {
+  text-align: center;
+}
+.say-hello .contact-phone a {
+  color: black;
+  font-style: italic;
+  font-size: 30px;
+}
+.say-hello .contact-phone a:hover {
+  color: #ff0094;
+}
+.say-hello .google-map {
+  padding: 100px 0px 80px 0px;
+}
+.contact-card-wrap {
+  padding-top: 50px;
+}
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(189, 189, 189);
+  height: 280px;
+  color: #ff0094;
+  box-shadow: 0 20px 80px -20px rgb(0 0 0 / 38%);
+}
+.contact-card h1 {
+  font-weight: 900;
+  font-size: 45px;
+}
+.contact-card > span {
+  font-size: 25px;
+}
+.contact-card > a {
+  font-size: 25px;
+  color: #ff0094;
+}
+
+.btn-modal {
+  background: #ff0094;
+  color: white !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+.btn-modal a {
+  background: #ff0094;
+  color: white !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+.brands {
+  padding: 60px 0px;
+}
+
+/*--------------------------------------------------------------
+# Podcst Page Css
+--------------------------------------------------------------*/
+#podcast .img-video-wrap {
+  display: flex;
+  background: black;
+}
+#podcast .img-sec {
+  width: 50%;
+}
+#podcast .video-sec {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*--------------------------------------------------------------
+# Games
+--------------------------------------------------------------*/
+.games-worked {
+  background: #e2e2e2;
+}
+.games-worked .games-head {
+  height: 200px;
+}
+.games-worked .games-head h1 {
+  font-weight: 900;
+  font-size: 113px;
+  color: #ff0d92;
+  text-align: center;
+}
+.games-worked .games-content {
+  font-weight: 500;
+  font-size: 53px;
+  text-align: center;
+  padding: 0px 290px;
+}
+.games-worked .games-card {
+  padding-bottom: 85px;
+}
+.games-worked .games {
+  background: url("../img/games/angry.png") center center;
+  background-size: cover;
+  position: relative;
+  padding: 250px 30px 150px 30px;
+}
+.games-worked .games2 {
+  background: url("../img/games/com.png") center center;
+  background-size: cover;
+  position: relative;
+  padding: 250px 30px 150px 30px;
+}
+.games-worked .body {
+  background: #ededed;
+  text-align: center;
+  padding: 30px 45px 45px 45px;
+}
+.games-worked .body .title h1 {
+  font-weight: 900;
+  font-size: 80px;
+  padding-bottom: 15px;
+}
+.games-worked .body .title-2 h4 {
+  font-size: 53px;
+  font-weight: 300;
+  padding: 15px 0px;
+}
+.games-worked .body .article {
+  font-size: 24px;
+}
+
+/* Forward */
+.hvr-forward {
+  display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  text-align: center;
+}
+.hvr-forward img {
+  height: 25px;
+}
+.hvr-forward:hover,
+.hvr-forward:focus,
+.hvr-forward:active {
+  -webkit-transform: translateX(8px);
+}
